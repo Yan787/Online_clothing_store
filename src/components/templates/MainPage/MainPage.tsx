@@ -1,5 +1,11 @@
-// import { Hero } from '@/components/modules/MainPage/Hero/Hero'
+import { Categories } from '@/components/modules/MainPage/Categories/Categories'
+import { Hero } from '@/components/modules/MainPage/Hero/Hero'
 
 export const MainPage = () => {
-  return <div>{/* <Hero /> */}</div>
+  return (
+    <main>
+      <Hero />
+      <Categories />
+    </main>
+  )
 }
