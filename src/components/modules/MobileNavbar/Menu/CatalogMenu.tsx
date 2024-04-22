@@ -9,6 +9,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Accordion } from '../../Accordion/Accordion'
+import { Header } from '../../Header/Header'
 import { CatalogMenuButton } from './ CatalogMenuButton'
 import { CatalogMenuList } from './CatalogMenuList'
 
@@ -86,6 +87,15 @@ export const CatalogMenu = () => {
             }}
             className='catalog-menu__aside'
           >
+            <motion.div
+              className='catalog-menu__header'
+              initial='closed'
+              animate='open'
+              exit='closed'
+              variants={itemVariants}
+            >
+              <Header />
+            </motion.div>
             <motion.div
               className='catalog-menu__inner'
               initial='closed'

@@ -1,6 +1,9 @@
 'use client'
+// @ts-ignore
 import { Swiper as SwiperType } from 'swiper/types'
+// @ts-ignore
 import { Swiper, SwiperSlide } from 'swiper/react'
+// @ts-ignore
 import { EffectCoverflow } from 'swiper/modules'
 import { useLang } from '@/hooks/useLang'
 import img1 from '../../../../../public/img/black-t.png'

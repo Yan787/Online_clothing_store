@@ -17,7 +17,7 @@ export const Header = () => {
 
   const handleOpenSearchModal = () => {
     openSearchModal()
-    addOverflowHiddenToBody('0')
+    addOverflowHiddenToBody('5')
   }
 
   return (

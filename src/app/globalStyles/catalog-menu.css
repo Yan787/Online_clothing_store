@@ -37,6 +37,13 @@
   background-position: top 90px right;
 }
 
+.catalog-menu__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .catalog-menu__bg {
   position: absolute;
   right: 0;
